@@ -1,0 +1,15 @@
+the recommended api structure
+ -config
+ -routes
+ -model
+ -services
+
+ Create googleStrategy and save the user to the database
+create serialize user
+create deserialize user
+implemented cookie-session
+tell app to initialize passport
+tell app to initialiaze passport and use sessions
+ensure the googleauthroutes is after the Passport initialization.
+create a route to test the user
+create a route to logout the user 
